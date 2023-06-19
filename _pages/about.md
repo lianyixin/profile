@@ -7,11 +7,9 @@ subtitle: Xiaobing.ai - lianyixin@xiaobing.ai. yl4089@columbia.edu.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  # address: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  image_circular: true # crops the image to make it circular
+  address: >
+    <p>Shanghai, China</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
@@ -21,6 +19,6 @@ social: true  # includes social icons at the bottom of the page
 
 Currently work in Xiaobing.ai. Graduated from Columbia University and Shanghai Jiao Tong University. My research interests include Pretraining of Large Language Models, Informative Dialogue Systems, Domain (Multimodal) Adaptation.
 
-Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Conference Reviewer: ACL, EMNLP
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+See my academic profile here: [Google Scholar](https://scholar.google.com/citations?user=QmAZSkYAAAAJ&hl=en) and [Semantic Scholar](https://www.semanticscholar.org/author/Yixin-Lian/2057322485).
