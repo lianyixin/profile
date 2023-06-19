@@ -1,24 +1,17 @@
-<!--
- * @Author: ethanlian
- * @Date: 2023-06-18 23:03:06
- * @LastEditTime: 2023-06-19 15:19:14
- * @LastEditors: ethanlian
- * @FilePath: \profile\_pages\about.md
--->
 ---
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Xiaobing.ai</a>. lianyixin@xiaobing.ai. yl4089@columbia.edu.
+subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <!-- <p>555 your office number</p>
+    <p>555 your office number</p>
     <p>123 your address street</p>
-    <p>Your City, State 12345</p> -->
+    <p>Your City, State 12345</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
