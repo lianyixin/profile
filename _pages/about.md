@@ -7,14 +7,14 @@ subtitle: Xiaobing.ai - lianyixin@xiaobing.ai. yl4089@columbia.edu.
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: true # crops the image to make it circular
+  image_circular: false # crops the image to make it circular
   address: >
     <p>Shanghai, China</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false  # includes a list of news items
+latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false  # includes social icons at the bottom of the page
 ---
 
 Currently work in Xiaobing.ai. Graduated from Columbia University and Shanghai Jiao Tong University. My research interests include Pretraining of Large Language Models, Informative Dialogue Systems, Domain (Multimodal) Adaptation.
