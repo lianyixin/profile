@@ -19,7 +19,7 @@ social: false  # includes social icons at the bottom of the page
 
 Currently work in Xiaobing.ai. Graduated from Columbia University and Shanghai Jiao Tong University. My research interests include Pretraining of Large Language Models, Informative Dialogue Systems, Domain (Multimodal) Adaptation.
 
-I started out my research career when I worked as a NLP Researcher in AI R&D Center of Huawei. After that, I joined Xiaobing and collaborated with colleagues and supervised interns to deep dive into the era of AGI. Obviously, still a long way to go.
+I started out my research career when I worked as a NLP Researcher in AI R&D Center of Huawei under the lead of [Alfred Shen](https://www.linkedin.cn/incareer/in/alfred-shen-5143a71). After that, I joined Xiaobing under the direct supervision of [Baoyuan Wang](https://sites.google.com/site/zjuwby/?pli=1) and collaborated with colleagues and guided interns to deep dive into the era of AGI. Obviously, still a long way to go.
 
 Conference Reviewer: ACL, EMNLP
 
