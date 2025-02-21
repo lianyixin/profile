@@ -3,13 +3,17 @@
 
 @string{aps = {American Physical Society,}}
 
-@inproceedings{
-gao2025smartrag,
-title={Smart{RAG}: Jointly Learn {RAG}-Related Tasks From the Environment Feedback},
-author={Jingsheng Gao and Linxu Li and Ke Ji and Weiyuan Li and Yixin Lian and yuzhuo fu and Bin Dai},
-booktitle={The Thirteenth International Conference on Learning Representations},
-year={2025},
-url={https://openreview.net/forum?id=OCd3cffulp}
+@article{gao2025smartrag,
+  abbr={smartrag},
+  title={Smart{RAG}: Jointly Learn {RAG}-Related Tasks From the Environment Feedback}, 
+  author={Jingsheng Gao and Linxu Li and Ke Ji and Weiyuan Li and Yixin Lian and yuzhuo fu and Bin Dai},
+  abstract={RAG systems consist of multiple modules to work together. However, these modules are usually separately trained. We argue that a system like RAG that incorporates multiple modules should be jointly optimized to achieve optimal performance. To demonstrate this, we design a specific pipeline called SmartRAG that includes a policy network and a retriever. The policy network can serve as 1) a decision maker that decides when to retrieve, 2) a query rewriter to generate a query most suited to the retriever and 3) an answer generator that produces the final response with/without the observations. We then propose to jointly optimize the whole system using a reinforcement learning algorithm, with the reward designed to encourage the system to achieve the highest performance with minimal retrieval cost. When jointly optimized, each module can be aware of how other modules are working and thus find the best way to work together as a complete system. Empirical results demonstrate that the jointly optimized system can achieve better performance than separately optimized counterparts.},
+  journal={The Thirteenth International Conference on Learning Representations (ICLR)},
+  year={2025},
+  url={https://openreview.net/forum?id=OCd3cffulp},
+  html={https://openreview.net/forum?id=OCd3cffulp},
+  dimensions={true},
+  selected={true}
 }
 
 @article{han2023dialcot,
