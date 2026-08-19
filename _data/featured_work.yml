@@ -1,26 +1,49 @@
 - title: CityCity Agent
-  kind: Open Source
+  kind:
+    en: Open Source
+    zh: 开源
   url: https://github.com/lianyixin/citycity-agent
-  link_label: GitHub
-  description: >
-    An AI agent for city activity planning — grounded, parallel, multi-route ideas
-    for what to do next. Also shipped as an agent skill, so Cursor, Claude Code,
-    and Codex can plan city routes for you.
+  link_label:
+    en: GitHub
+    zh: GitHub
+  description:
+    en: >
+      An AI agent for city activity planning — grounded, parallel, multi-route ideas
+      for what to do next. Also shipped as an agent skill, so Cursor, Claude Code,
+      and Codex can plan city routes for you.
+    zh: >
+      城市活动规划 AI Agent：一次提问给出多条有真实地点支撑的玩法路线。
+      也封装为 Agent Skill，可在 Cursor、Claude Code、Codex 中直接规划城市路线。
 
 - title: EasyLaunch
-  kind: Product
+  kind:
+    en: Product
+    zh: 产品
   url: https://easylaunch.aimos.cloud/
-  link_label: Website
-  description: >
-    A productization platform that turns expert capabilities and AI Skills into
-    reusable, deployable, operable, and sellable services — with hosting, login,
-    payments, and analytics built in.
+  link_label:
+    en: Website
+    zh: 官网
+  description:
+    en: >
+      A productization platform that turns expert capabilities and AI Skills into
+      reusable, deployable, operable, and sellable services — with hosting, login,
+      payments, and analytics built in.
+    zh: >
+      能力产品化平台，把专家方法论与 AI Skill 变成可复用、可上线、可运营、可销售的服务，
+      内置托管、登录、收款与数据统计。
 
 - title: Haven AI
   subtitle: 海文启航
-  kind: Product
+  kind:
+    en: Product
+    zh: 产品
   url: https://havenai.cn/
-  link_label: Website
-  description: >
-    An AI platform for delivering expert skills as production-ready services and
-    orchestrating them into enterprise workflows.
+  link_label:
+    en: Website
+    zh: 官网
+  description:
+    en: >
+      An AI platform for delivering expert skills as production-ready services and
+      orchestrating them into enterprise workflows.
+    zh: >
+      把专家 Skill 做成可交付的生产服务，并编排进企业工作流。

@@ -2,6 +2,8 @@
 layout: about
 title: about
 permalink: /
+lang: en
+lang_switch: /zh/
 subtitle: 美团 - lianyixin02@meituan.com. yl4089@columbia.edu.
 # <a href='#'>Affiliations</a>. 
 profile:

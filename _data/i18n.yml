@@ -1,0 +1,23 @@
+en:
+  about: about
+  publications: publications
+  selected_work: selected work
+  selected_publications: selected publications
+  footer_html: >
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with
+    <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+    Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+  last_updated: Last updated
+  change_theme: Change theme
+
+zh:
+  about: 关于
+  publications: 论文
+  selected_work: 精选工作
+  selected_publications: 精选论文
+  footer_html: >
+    由 <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> 驱动，主题为
+    <a href="https://github.com/alshedivat/al-folio">al-folio</a>。
+    托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>。
+  last_updated: 最近更新
+  change_theme: 切换主题

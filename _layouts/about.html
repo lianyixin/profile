@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% include i18n.html %}
 
 <!-- about.html -->
       <div class="post">
@@ -54,13 +55,13 @@ layout: default
 
           <!-- Featured work: open source & products -->
           {% if page.featured_work -%}
-            <h2>selected work</h2>
+            <h2>{{ t.selected_work }}</h2>
             {%- include featured_work.html %}
           {%- endif %}
 
           <!-- Selected papers -->
           {% if page.selected_papers -%}
-            <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>
+            <h2><a href="{{ pub_path | relative_url }}" style="color: inherit;">{{ t.selected_publications }}</a></h2>
             {%- include selected_papers.html %}
           {%- endif %}
 

@@ -1,0 +1,31 @@
+{% comment %}Set language, translated strings, and counterpart URLs.{% endcomment %}
+{%- assign lang = page.lang | default: site.lang | default: 'en' -%}
+{%- assign i18n = site.data.i18n -%}
+{%- assign t = i18n[lang] -%}
+{%- assign current_path = page.permalink | default: page.url -%}
+
+{%- if lang == 'zh' -%}
+  {%- assign html_lang = 'zh-CN' -%}
+  {%- assign home_path = '/zh/' -%}
+  {%- assign pub_path = '/zh/publications/' -%}
+{%- else -%}
+  {%- assign html_lang = 'en' -%}
+  {%- assign home_path = '/' -%}
+  {%- assign pub_path = '/publications/' -%}
+{%- endif -%}
+
+{%- if page.lang_switch -%}
+  {%- assign switch_path = page.lang_switch -%}
+{%- elsif lang == 'zh' -%}
+  {%- assign switch_path = '/' -%}
+{%- else -%}
+  {%- assign switch_path = '/zh/' -%}
+{%- endif -%}
+
+{%- if lang == 'zh' -%}
+  {%- assign en_path = switch_path -%}
+  {%- assign zh_path = current_path -%}
+{%- else -%}
+  {%- assign en_path = current_path -%}
+  {%- assign zh_path = switch_path -%}
+{%- endif -%}

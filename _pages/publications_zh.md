@@ -1,15 +1,15 @@
 ---
 layout: page
-permalink: /publications/
-title: publications
-lang: en
-lang_switch: /zh/publications/
-description: publications by categories in reversed chronological order.
+permalink: /zh/publications/
+title: 论文
+lang: zh
+lang_switch: /publications/
+description: 按年份倒序排列的论文。
 years: [2025, 2023, 2022, 2021, 2020]
 nav: true
 nav_order: 1
 ---
-<!-- _pages/publications.md -->
+<!-- _pages/publications_zh.md -->
 <div class="publications">
 
 {%- for y in page.years %}

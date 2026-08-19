@@ -29,6 +29,11 @@
     {% endif %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+    {%- if page.lang_switch %}
+    <link rel="alternate" hreflang="en" href="{{ en_path | absolute_url }}">
+    <link rel="alternate" hreflang="zh-CN" href="{{ zh_path | absolute_url }}">
+    <link rel="alternate" hreflang="x-default" href="{{ en_path | absolute_url }}">
+    {%- endif %}
 
     <!-- Dark Mode -->
     {% if site.enable_darkmode %}

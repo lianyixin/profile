@@ -299,6 +299,34 @@ blockquote {
   }
 }
 
+.lang-switch {
+  display: flex;
+  align-items: center;
+  margin-left: 0.35rem;
+
+  .nav-link {
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    font-size: 0.9rem;
+
+    &.active {
+      font-weight: 700;
+      color: var(--global-theme-color) !important;
+    }
+  }
+
+  .lang-sep {
+    color: var(--global-text-color-light);
+    opacity: 0.55;
+    user-select: none;
+  }
+}
+
+html[lang="zh-CN"] body {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", Roboto, sans-serif;
+}
+
+
 // Social (bottom)
 
 .social {

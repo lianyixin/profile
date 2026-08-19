@@ -1,4 +1,5 @@
 <!-- _includes/featured_work.html -->
+{%- assign fw_lang = lang | default: page.lang | default: 'en' -%}
 <div class="featured-work">
   {%- for item in site.data.featured_work %}
   <div class="featured-work-item">
@@ -7,10 +8,10 @@
       {%- if item.subtitle %}
       <span class="featured-work-subtitle">{{ item.subtitle }}</span>
       {%- endif %}
-      <span class="featured-work-kind">{{ item.kind }}</span>
+      <span class="featured-work-kind">{{ item.kind[fw_lang] }}</span>
     </div>
-    <p class="featured-work-desc">{{ item.description | strip }}</p>
-    <a class="featured-work-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.link_label }} →</a>
+    <p class="featured-work-desc">{{ item.description[fw_lang] | strip }}</p>
+    <a class="featured-work-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.link_label[fw_lang] }} →</a>
   </div>
   {%- endfor %}
 </div>

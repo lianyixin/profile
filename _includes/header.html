@@ -4,8 +4,8 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
         <div class="container">
-          {% if page.permalink != '/' -%}
-          <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}/">
+          {% if page.permalink != home_path -%}
+          <a class="navbar-brand title font-weight-lighter" href="{{ home_path | relative_url }}">
             {%- if site.title == "blank" -%}
               {%- if site.first_name -%}
                 <span class="font-weight-bold">{{- site.first_name -}}&nbsp;</span>
@@ -37,16 +37,10 @@
           <div class="collapse navbar-collapse text-right" id="navbarNav">
             <ul class="navbar-nav ml-auto flex-nowrap">
 
-              {%- for page in site.pages -%}
-                {% if page.permalink == '/' %}
-                  {% assign about_title = page.title %}
-                {% endif %}
-              {% endfor %}
-
               <!-- About -->
-              <li class="nav-item {% if page.permalink == '/' %}active{% endif %}">
-                <a class="nav-link" href="{{ '/' | relative_url }}">{{ about_title }}
-                  {%- if page.permalink == '/' -%}
+              <li class="nav-item {% if page.permalink == home_path %}active{% endif %}">
+                <a class="nav-link" href="{{ home_path | relative_url }}">{{ t.about }}
+                  {%- if page.permalink == home_path -%}
                   <span class="sr-only">(current)</span>
                   {%- endif -%}
                 </a>
@@ -65,7 +59,8 @@
               <!-- Other pages -->
               {%- assign sorted_pages = site.pages | sort: "nav_order" -%}
               {%- for p in sorted_pages -%}
-              {%- if p.nav and p.autogen == nil -%}
+              {%- assign p_lang = p.lang | default: 'en' -%}
+              {%- if p.nav and p.autogen == nil and p_lang == lang -%}
               {%- if p.dropdown %}
               <li class="nav-item dropdown {% if page.title == p.title %}active{% endif %}">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ p.title }}
@@ -94,11 +89,19 @@
               {%- endif -%}
               {%- endif -%}
               {% endfor -%}
+
+              <!-- Language switch -->
+              <li class="nav-item lang-switch" aria-label="Language">
+                <a class="nav-link{% if lang == 'en' %} active{% endif %}" href="{{ en_path | relative_url }}" hreflang="en" lang="en">EN</a>
+                <span class="lang-sep">/</span>
+                <a class="nav-link{% if lang == 'zh' %} active{% endif %}" href="{{ zh_path | relative_url }}" hreflang="zh-CN" lang="zh-CN">中文</a>
+              </li>
+
               {%- if site.enable_darkmode %}
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
+                <button id="light-toggle" title="{{ t.change_theme }}">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </button>

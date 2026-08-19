@@ -23,9 +23,13 @@
     {%- else -%}
         {%- capture title -%}{{ site.title }}{%- endcapture -%}
     {%- endif -%}
+    {%- assign is_home = false -%}
+    {%- if page.permalink == '/' or page.permalink == '/zh/' -%}
+        {%- assign is_home = true -%}
+    {%- endif -%}
     {% if page.url == '/blog/index.html' %}
         {{ site.blog_nav_title }} | {{ title }}
-    {%- elsif page.title != "blank" and page.url != "/" -%}
+    {%- elsif page.title != "blank" and is_home == false -%}
         {%- if page.title == nil or page.title == "" -%}
             {{ page.date | date: "%Y" }} | {{ title }}
         {%- else -%}
