@@ -500,6 +500,80 @@ footer.sticky-bottom {
 }
 
 
+// Featured work (homepage, before selected publications)
+
+.featured-work {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+
+  .featured-work-item {
+    padding: 1rem 0 1.05rem;
+    border-bottom: 1px solid var(--global-divider-color);
+
+    &:first-child {
+      padding-top: 0.25rem;
+    }
+
+    &:last-child {
+      border-bottom: none;
+      padding-bottom: 0;
+    }
+  }
+
+  .featured-work-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.45rem 0.7rem;
+    margin-bottom: 0.35rem;
+  }
+
+  .featured-work-title {
+    font-weight: 600;
+    font-size: 1.05rem;
+    color: var(--global-text-color);
+    text-decoration: none;
+
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: underline;
+    }
+  }
+
+  .featured-work-subtitle {
+    color: var(--global-text-color-light);
+    font-size: 0.9rem;
+  }
+
+  .featured-work-kind {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--global-theme-color);
+    border: 1px solid var(--global-theme-color);
+    border-radius: 999px;
+    padding: 0.08rem 0.5rem;
+    line-height: 1.4;
+  }
+
+  .featured-work-desc {
+    margin: 0 0 0.35rem;
+    color: var(--global-text-color);
+  }
+
+  .featured-work-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+
 // Projects
 
 .projects {

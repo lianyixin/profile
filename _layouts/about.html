@@ -52,6 +52,12 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
+          <!-- Featured work: open source & products -->
+          {% if page.featured_work -%}
+            <h2>selected work</h2>
+            {%- include featured_work.html %}
+          {%- endif %}
+
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ '/publications/' | relative_url }}" style="color: inherit;">selected publications</a></h2>

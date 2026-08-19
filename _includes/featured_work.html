@@ -1,0 +1,16 @@
+<!-- _includes/featured_work.html -->
+<div class="featured-work">
+  {%- for item in site.data.featured_work %}
+  <div class="featured-work-item">
+    <div class="featured-work-head">
+      <a class="featured-work-title" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.title }}</a>
+      {%- if item.subtitle %}
+      <span class="featured-work-subtitle">{{ item.subtitle }}</span>
+      {%- endif %}
+      <span class="featured-work-kind">{{ item.kind }}</span>
+    </div>
+    <p class="featured-work-desc">{{ item.description | strip }}</p>
+    <a class="featured-work-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.link_label }} →</a>
+  </div>
+  {%- endfor %}
+</div>
