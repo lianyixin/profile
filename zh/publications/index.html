@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
   <!-- Head -->
   <head>
@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Yixin  Lian (连怡鑫)</title>
+    <title>论文 | Yixin  Lian (连怡鑫)</title>
     <meta name="author" content="Yixin  Lian (连怡鑫)">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="按年份倒序排列的论文。">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,10 +38,10 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/profile/assets/css/main.css">
-    <link rel="canonical" href="https://lianyixin.github.io/profile/">
-    <link rel="alternate" hreflang="en" href="https://lianyixin.github.io/profile/">
-    <link rel="alternate" hreflang="zh-CN" href="https://lianyixin.github.io/profile/zh/">
-    <link rel="alternate" hreflang="x-default" href="https://lianyixin.github.io/profile/">
+    <link rel="canonical" href="https://lianyixin.github.io/profile/zh/publications/">
+    <link rel="alternate" hreflang="en" href="https://lianyixin.github.io/profile/publications/">
+    <link rel="alternate" hreflang="zh-CN" href="https://lianyixin.github.io/profile/zh/publications/">
+    <link rel="alternate" hreflang="x-default" href="https://lianyixin.github.io/profile/publications/">
 
     <!-- Dark Mode -->
     
@@ -63,7 +62,7 @@
       <!-- Nav Bar -->
       <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
         <div class="container">
-          
+          <a class="navbar-brand title font-weight-lighter" href="/profile/zh/"><span class="font-weight-bold">Yixin </span>Lian (连怡鑫)</a>
           <!-- Navbar Toggle -->
           <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="sr-only">Toggle navigation</span>
@@ -76,25 +75,25 @@
             <ul class="navbar-nav ml-auto flex-nowrap">
 
               <!-- About -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/profile/">about<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/profile/zh/">关于</a>
               </li>
               
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/profile/publications/">publications</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/profile/zh/publications/">论文<span class="sr-only">(current)</span></a>
               </li>
 <!-- Language switch -->
               <li class="nav-item lang-switch" aria-label="Language">
-                <a class="nav-link active" href="/profile/" hreflang="en" lang="en">EN</a>
+                <a class="nav-link" href="/profile/publications/" hreflang="en" lang="en">EN</a>
                 <span class="lang-sep">/</span>
-                <a class="nav-link" href="/profile/zh/" hreflang="zh-CN" lang="zh-CN">中文</a>
+                <a class="nav-link active" href="/profile/zh/publications/" hreflang="zh-CN" lang="zh-CN">中文</a>
               </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
+                <button id="light-toggle" title="切换主题">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </button>
@@ -116,94 +115,19 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        
+        <!-- page.html -->
+        <div class="post">
 
-<!-- about.html -->
-      <div class="post">
-        <header class="post-header">
-          <h1 class="post-title">
-           <span class="font-weight-bold">Yixin</span>  Lian (连怡鑫)
-          </h1>
-          <p class="desc">美团 - lianyixin02@meituan.com. yl4089@columbia.edu.</p>
-        </header>
+          <header class="post-header">
+            <h1 class="post-title">论文</h1>
+            <p class="post-description">按年份倒序排列的论文。</p>
+          </header>
 
-        <article>
-          <div class="profile float-right">
-
-              <figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/profile/assets/img/prof_pic-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/profile/assets/img/prof_pic-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/profile/assets/img/prof_pic-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/profile/assets/img/prof_pic.jpg" class="img-fluid z-depth-1 rounded" width="auto" height="auto" alt="prof_pic.jpg" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-            <div class="address">
-              <p>Shanghai, China</p>
-
-            </div>
-          </div>
-
-          <div class="clearfix">
-            <p>Currently work in 美团 - 大众点评. Graduated from Columbia University and Shanghai Jiao Tong University. My research interests include Pretraining of Large Language Models, Informative Dialogue Systems, Domain (Multimodal) Adaptation and Autonomous Agents.</p>
-
-<p>I started out my research career when I worked as a NLP Researcher in AI R&amp;D Center of Huawei under the lead of <a href="https://www.linkedin.cn/incareer/in/alfred-shen-5143a71" rel="external nofollow noopener" target="_blank">Alfred Shen</a> and Cheng Li. After that, I joined Xiaobing under the direct supervision of <a href="https://sites.google.com/site/zjuwby/?pli=1" rel="external nofollow noopener" target="_blank">Baoyuan Wang</a> and collaborated with colleagues and guided interns to deep dive into the era of AGI. Now, my interests focus on the application of AI in vertical domains like local life e-commerce, tourism, and education. Obviously, still a long way to go.</p>
-
-<p>Conference Reviewer: ACL, EMNLP</p>
-
-<p>See my academic profile here: <a href="https://scholar.google.com/citations?user=QmAZSkYAAAAJ&amp;hl=en" rel="external nofollow noopener" target="_blank">Google Scholar</a> and <a href="https://www.semanticscholar.org/author/Yixin-Lian/2057322485" rel="external nofollow noopener" target="_blank">Semantic Scholar</a>.</p>
-
-          </div>
-
-          <!-- News -->
-          
-
-          <!-- Latest posts -->
-          
-
-          <!-- Featured work: open source & products -->
-          <h2>selected work</h2>
-<!-- _includes/featured_work.html --><div class="featured-work">
-  <div class="featured-work-item">
-    <div class="featured-work-head">
-      <a class="featured-work-title" href="https://github.com/lianyixin/citycity-agent" target="_blank" rel="noopener noreferrer">CityCity Agent</a>
-      <span class="featured-work-kind">Open Source</span>
-    </div>
-    <p class="featured-work-desc">An AI agent for city activity planning — grounded, parallel, multi-route ideas for what to do next. Also shipped as an agent skill, so Cursor, Claude Code, and Codex can plan city routes for you.</p>
-    <a class="featured-work-link" href="https://github.com/lianyixin/citycity-agent" target="_blank" rel="noopener noreferrer">GitHub →</a>
-  </div>
-  <div class="featured-work-item">
-    <div class="featured-work-head">
-      <a class="featured-work-title" href="https://easylaunch.aimos.cloud/" target="_blank" rel="noopener noreferrer">EasyLaunch</a>
-      <span class="featured-work-kind">Product</span>
-    </div>
-    <p class="featured-work-desc">A productization platform that turns expert capabilities and AI Skills into reusable, deployable, operable, and sellable services — with hosting, login, payments, and analytics built in.</p>
-    <a class="featured-work-link" href="https://easylaunch.aimos.cloud/" target="_blank" rel="noopener noreferrer">Website →</a>
-  </div>
-  <div class="featured-work-item">
-    <div class="featured-work-head">
-      <a class="featured-work-title" href="https://havenai.cn/" target="_blank" rel="noopener noreferrer">Haven AI</a>
-      <span class="featured-work-subtitle">海文启航</span>
-      <span class="featured-work-kind">Product</span>
-    </div>
-    <p class="featured-work-desc">An AI platform for delivering expert skills as production-ready services and orchestrating them into enterprise workflows.</p>
-    <a class="featured-work-link" href="https://havenai.cn/" target="_blank" rel="noopener noreferrer">Website →</a>
-  </div>
-</div>
-
-
-          <!-- Selected papers -->
-          <h2><a href="/profile/publications/" style="color: inherit;">selected publications</a></h2>
-          <div class="publications">
-            <ol class="bibliography">
+          <article>
+            <!-- _pages/publications_zh.md -->
+<div class="publications">
+  <h2 class="year">2025</h2>
+  <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -316,6 +240,10 @@
         </div>
       </div>
 </li>
+</ol>
+
+  <h2 class="year">2023</h2>
+  <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -484,6 +412,10 @@
         </div>
       </div>
 </li>
+</ol>
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography">
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
@@ -583,7 +515,10 @@
         </div>
       </div>
 </li>
-<li>
+</ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://arxiv.org/abs/2101.02392" rel="external nofollow noopener" target="_blank">detectingla</a></abbr></div>
@@ -638,8 +573,10 @@
           </div>
         </div>
       </div>
-</li>
-<li>
+</li></ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li>
 <!-- _layouts/bib.html -->
       <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge"><a href="https://arxiv.org/abs/2010.05594" rel="external nofollow noopener" target="_blank">multiwoz2a</a></abbr></div>
@@ -694,15 +631,14 @@
           </div>
         </div>
       </div>
-</li>
-</ol>
-          </div>
+</li></ol>
 
-
-          <!-- Social -->
-        </article>
 
 </div>
+
+          </article>
+
+        </div>
 
       
     </div>
@@ -710,7 +646,7 @@
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        © Copyright 2026 Yixin  Lian (连怡鑫). Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>.
+        © Copyright 2026 Yixin  Lian (连怡鑫). 由 <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> 驱动，主题为 <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>。 托管于 <a href="https://pages.github.com/" target="_blank" rel="external nofollow noopener">GitHub Pages</a>。
 
       </div>
     </footer>
