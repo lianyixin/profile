@@ -590,6 +590,12 @@ footer.sticky-bottom {
     color: var(--global-text-color);
   }
 
+  .featured-work-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.55rem 1rem;
+  }
+
   .featured-work-link {
     font-size: 0.9rem;
     font-weight: 500;

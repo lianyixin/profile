@@ -11,7 +11,12 @@
       <span class="featured-work-kind">{{ item.kind[fw_lang] }}</span>
     </div>
     <p class="featured-work-desc">{{ item.description[fw_lang] | strip }}</p>
-    <a class="featured-work-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.link_label[fw_lang] }} →</a>
+    <div class="featured-work-links">
+      <a class="featured-work-link" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{{ item.link_label[fw_lang] }} →</a>
+      {%- if item.repo_url %}
+      <a class="featured-work-link" href="{{ item.repo_url }}" target="_blank" rel="noopener noreferrer">{{ item.repo_link_label[fw_lang] | default: 'GitHub' }} →</a>
+      {%- endif %}
+    </div>
   </div>
   {%- endfor %}
 </div>

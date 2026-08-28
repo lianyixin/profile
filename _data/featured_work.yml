@@ -31,6 +31,26 @@
       CityCity Agent 驱动的上海城市漫步官网，帮你发现接下来怎么玩上海。
       小红书账号 400+ 粉丝。
 
+- title: 梁圣变阻器
+  subtitle: Liang Slider
+  kind:
+    en: Open Source
+    zh: 开源
+  url: https://liang-slider.havenai.online/
+  repo_url: https://github.com/lianyixin/liang-slider-official
+  link_label:
+    en: Live Demo
+    zh: 在线体验
+  repo_link_label:
+    en: GitHub
+    zh: GitHub
+  description:
+    en: >
+      An AI portrait playground — six-stage rheostats, community voting, live research,
+      and create-your-own hero flow. Open-sourced for one-click deploy.
+    zh: >
+      AI 人像互动实验：六档滑动变阻器、社区投票、联网研判与自制豪杰，已开源可一键部署。
+
 - title: EasyLaunch
   kind:
     en: Product
@@ -47,6 +67,21 @@
     zh: >
       能力产品化平台，把专家方法论与 AI Skill 变成可复用、可上线、可运营、可销售的服务，
       内置托管、登录、收款与数据统计。
+
+- title: Haven Agent
+  kind:
+    en: Product
+    zh: 产品
+  url: https://haven-agent.aimos.cloud/
+  link_label:
+    en: Website
+    zh: 官网
+  description:
+    en: >
+      Enterprise AI desktop assistant with platform-integrated models, skills,
+      and agent workflows.
+    zh: >
+      企业级 AI 桌面助手，集成平台模型、技能与 Agent 工作流。
 
 - title: Haven AI
   subtitle: 海文启航
