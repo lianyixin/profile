@@ -15,8 +15,8 @@ profile:
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-featured_work: true  # open source & products, shown before selected publications
 selected_papers: true # includes a list of papers marked as "selected={true}"
+featured_work: true  # open source & products, shown after selected publications (newest first)
 social: false  # includes social icons at the bottom of the page
 ---
 

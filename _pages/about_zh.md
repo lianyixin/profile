@@ -14,8 +14,8 @@ profile:
 
 news: false
 latest_posts: false
-featured_work: true
 selected_papers: true
+featured_work: true
 social: false
 ---
 

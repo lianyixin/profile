@@ -1,3 +1,53 @@
+# Order: newest first — later additions go to the top.
+- title: 问迹
+  subtitle: Wenji
+  kind:
+    en: Product
+    zh: 产品
+  url: https://wenjiai.cn/
+  link_label:
+    en: Website
+    zh: 官网
+  description:
+    en: >
+      Find AI products, explore AI tracks, and install AI skills — ProductBook,
+      TrackBook, and SkillBook for discovering and understanding AI capabilities.
+    zh: >
+      找 AI 产品、看 AI 赛道、装 AI 技能。ProductBook / TrackBook / SkillBook，
+      让 AI 能力被发现、被理解、被使用。
+
+- title: EasyLaunch
+  kind:
+    en: Product
+    zh: 产品
+  url: https://easylaunch.aimos.cloud/
+  link_label:
+    en: Website
+    zh: 官网
+  description:
+    en: >
+      A productization platform that turns expert capabilities and AI Skills into
+      reusable, deployable, operable, and sellable services — with hosting, login,
+      payments, and analytics built in.
+    zh: >
+      能力产品化平台，把专家方法论与 AI Skill 变成可复用、可上线、可运营、可销售的服务，
+      内置托管、登录、收款与数据统计。
+
+- title: Haven Agent
+  kind:
+    en: Product
+    zh: 产品
+  url: https://haven-agent.aimos.cloud/
+  link_label:
+    en: Website
+    zh: 官网
+  description:
+    en: >
+      Enterprise AI desktop assistant with platform-integrated models, skills,
+      and agent workflows.
+    zh: >
+      企业级 AI 桌面助手，集成平台模型、技能与 Agent 工作流。
+
 - title: CityCity Agent
   kind:
     en: Open Source
@@ -50,38 +100,6 @@
       and create-your-own hero flow. Open-sourced for one-click deploy.
     zh: >
       AI 人像互动实验：六档滑动变阻器、社区投票、联网研判与自制豪杰，已开源可一键部署。
-
-- title: EasyLaunch
-  kind:
-    en: Product
-    zh: 产品
-  url: https://easylaunch.aimos.cloud/
-  link_label:
-    en: Website
-    zh: 官网
-  description:
-    en: >
-      A productization platform that turns expert capabilities and AI Skills into
-      reusable, deployable, operable, and sellable services — with hosting, login,
-      payments, and analytics built in.
-    zh: >
-      能力产品化平台，把专家方法论与 AI Skill 变成可复用、可上线、可运营、可销售的服务，
-      内置托管、登录、收款与数据统计。
-
-- title: Haven Agent
-  kind:
-    en: Product
-    zh: 产品
-  url: https://haven-agent.aimos.cloud/
-  link_label:
-    en: Website
-    zh: 官网
-  description:
-    en: >
-      Enterprise AI desktop assistant with platform-integrated models, skills,
-      and agent workflows.
-    zh: >
-      企业级 AI 桌面助手，集成平台模型、技能与 Agent 工作流。
 
 - title: Haven AI
   subtitle: 海文启航

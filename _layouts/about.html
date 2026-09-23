@@ -53,16 +53,16 @@ layout: default
             {%- include latest_posts.html %}
           {%- endif %}
 
-          <!-- Featured work: open source & products -->
-          {% if page.featured_work -%}
-            <h2>{{ t.selected_work }}</h2>
-            {%- include featured_work.html %}
-          {%- endif %}
-
           <!-- Selected papers -->
           {% if page.selected_papers -%}
             <h2><a href="{{ pub_path | relative_url }}" style="color: inherit;">{{ t.selected_publications }}</a></h2>
             {%- include selected_papers.html %}
+          {%- endif %}
+
+          <!-- Featured work: open source & products (newest first) -->
+          {% if page.featured_work -%}
+            <h2>{{ t.selected_work }}</h2>
+            {%- include featured_work.html %}
           {%- endif %}
 
           <!-- Social -->
