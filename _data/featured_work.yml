@@ -1,6 +1,6 @@
 # Order: newest first — later additions go to the top.
-- title: 问迹
-  subtitle: Wenji
+- title: 问迹AI
+  subtitle: Wenji AI
   kind:
     en: Product
     zh: 产品
@@ -10,11 +10,12 @@
     zh: 官网
   description:
     en: >
-      Find AI products, explore AI tracks, and install AI skills — ProductBook,
-      TrackBook, and SkillBook for discovering and understanding AI capabilities.
+      An AI-native venture intelligence site. Find AI products, read AI tracks,
+      see who leads, and use AI skills — ProductBook, TrackBook, Leaderboard,
+      and SkillBook, from a lead to a judgment to a check.
     zh: >
-      找 AI 产品、看 AI 赛道、装 AI 技能。ProductBook / TrackBook / SkillBook，
-      让 AI 能力被发现、被理解、被使用。
+      AI 原生的创投情报站。找 AI 产品、看 AI 赛道、看谁领跑、用 AI 技能。
+      ProductBook / TrackBook / Leaderboard / SkillBook，从线索到判断，再到验证。
 
 - title: EasyLaunch
   kind:
@@ -47,72 +48,3 @@
       and agent workflows.
     zh: >
       企业级 AI 桌面助手，集成平台模型、技能与 Agent 工作流。
-
-- title: CityCity Agent
-  kind:
-    en: Open Source
-    zh: 开源
-  url: https://github.com/lianyixin/citycity-agent
-  link_label:
-    en: GitHub
-    zh: GitHub
-  description:
-    en: >
-      An AI agent for city activity planning — grounded, parallel, multi-route ideas
-      for what to do next. Also shipped as an agent skill, so Cursor, Claude Code,
-      and Codex can plan city routes for you.
-    zh: >
-      城市活动规划 AI Agent：一次提问给出多条有真实地点支撑的玩法路线。
-      也封装为 Agent Skill，可在 Cursor、Claude Code、Codex 中直接规划城市路线。
-
-- title: 上海 City 不 City
-  kind:
-    en: Product
-    zh: 产品
-  url: https://shanghaicitycity-web.havenai.online/
-  link_label:
-    en: Website
-    zh: 官网
-  description:
-    en: >
-      The live Shanghai citywalk product powered by CityCity Agent — discover grounded
-      routes for what to do next in the city. Xiaohongshu account with 400+ followers.
-    zh: >
-      CityCity Agent 驱动的上海城市漫步官网，帮你发现接下来怎么玩上海。
-      小红书账号 400+ 粉丝。
-
-- title: 梁圣变阻器
-  subtitle: Liang Slider
-  kind:
-    en: Open Source
-    zh: 开源
-  url: https://liang-slider.havenai.online/
-  repo_url: https://github.com/lianyixin/liang-slider-official
-  link_label:
-    en: Live Demo
-    zh: 在线体验
-  repo_link_label:
-    en: GitHub
-    zh: GitHub
-  description:
-    en: >
-      An AI portrait playground — six-stage rheostats, community voting, live research,
-      and create-your-own hero flow. Open-sourced for one-click deploy.
-    zh: >
-      AI 人像互动实验：六档滑动变阻器、社区投票、联网研判与自制豪杰，已开源可一键部署。
-
-- title: Haven AI
-  subtitle: 海文启航
-  kind:
-    en: Product
-    zh: 产品
-  url: https://havenai.cn/
-  link_label:
-    en: Website
-    zh: 官网
-  description:
-    en: >
-      An AI platform for delivering expert skills as production-ready services and
-      orchestrating them into enterprise workflows.
-    zh: >
-      把专家 Skill 做成可交付的生产服务，并编排进企业工作流。
